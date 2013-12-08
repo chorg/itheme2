@@ -1,0 +1,110 @@
+/*  
+Skin Name: Black
+Version: 1.0
+Description: Skin for iTheme2
+*/
+
+body {
+	color: #aaa;
+}
+a {
+	color: #97dffc;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+}
+input[type=text], input[type=password], textarea {
+	background: #444;
+	border-color: #555;
+}
+
+/************************************************************************************
+PANEL BACKGROUND STYLES
+*************************************************************************************/
+#header-slider, #content, .widget {
+	background: #222;
+	border: solid 1px #323232;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+#nav-bar {
+	border: solid 1px #000;
+	background-color: #222;
+	
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjE1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4zIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.3) 100%);
+	background-image: -webkit-linear-gradient(top,  rgba(255,255,255,0.15) 0%,rgba(0,0,0,0.3) 100%);
+	background-image: linear-gradient(to bottom,  rgba(255,255,255,0.15) 0%,rgba(0,0,0,0.3) 100%);
+}
+#main-nav li {
+	border-color: #000;
+}
+#main-nav .home a {
+	background-position: -41px center;
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+/* post title */
+.post-title, .post-title a {
+	color: #fff;
+}
+
+/* commentlist */
+.commentlist {
+	border-color: #222;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+}
+.commentwrap {
+	background: #2f2f2f;
+}
+.commentlist .commententry {
+	border-color: #222;
+	box-shadow: 0 1px 0 rgba(255,255,255,.1);
+}
+
+
+/************************************************************************************
+SIDEBAR
+*************************************************************************************/
+.widgettitle {
+	color: #fff;
+	border-top: solid 1px #989898;
+	border-bottom: solid 1px #000;
+	background-color: #333;
+	
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjYiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.1) 100%);
+	background-image: -webkit-linear-gradient(top,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.1) 100%);
+	background-image: linear-gradient(to bottom,  rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.1) 100%);
+	
+	text-shadow: 0 -1px 0 rgba(0,0,0,.7);
+}
+.widget li {
+	border-color: #333;
+}
+
+
+
+/************************************************************************************
+IMAGE STYLES
+*************************************************************************************/
+img.alignleft, img.aligncenter, img.alignright, img.alignnone, .wp-caption img,
+.widget .feature-posts-list .post-img,
+.widget .flickr_badge_image img,
+.commentlist .avatar,
+.recent-comments-list .avatar,
+#body .gallery img,
+.attachment img,
+.post-image img,
+.feature-img,
+.post-img
+{
+	background: #333;
+	border: solid 1px #444;
+}
+
+
